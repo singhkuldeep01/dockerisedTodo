@@ -1,0 +1,13 @@
+/* Global resets only — app styles live in App.css */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 16px/1.5 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
